@@ -9,7 +9,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load the dataset
-file_path = 'filtered_dataset.csv'  # Updated file path
+file_path = 'filtered_dataset_with_sentiment.csv'  # Updated file path
 data = pd.read_csv(file_path)
 
 # Convert 'Date Created' to datetime
@@ -73,9 +73,3 @@ plt.title('Bubble Chart of Sentiments and Engagement over Time')
 plt.xlabel('Date')
 plt.ylabel('Sentiment')
 plt.show()
-
-# Save results to a new CSV for further analysis
-output_path = 'processed_fifa_world_cup_2022_tweets.csv'
-data.to_csv(output_path, index=False)
-
-print("Comprehensive analysis completed and data saved.")

@@ -17,4 +17,4 @@ def analyze_sentiments(tweets_file):
     
     return output_file
 
-analyze_sentiments('fifa_world_cup_2022_tweets_no_sentiment.csv')
+analyze_sentiments('filtered_dataset.csv')

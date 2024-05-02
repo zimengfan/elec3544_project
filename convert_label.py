@@ -17,5 +17,4 @@ def update_sentiment_labels(input_csv, output_csv):
     # Save the updated DataFrame to a new CSV file
     df.to_csv(output_csv, index=False)
 
-# Example usage
-update_sentiment_labels('fifa_world_cup_2022_tweets_with_sentiment.csv', 'fifa_world_cup_2022_tweets_dataset.csv')
+update_sentiment_labels('filtered_dataset_with_sentiment.csv', 'filtered_dataset_with_sentiment.csv')

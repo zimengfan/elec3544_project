@@ -17,4 +17,4 @@ def preprocess_tweets(input_csv, output_csv):
     # Save the preprocessed tweets back to a new CSV file
     df.to_csv(output_csv, index=False)
 
-preprocess_tweets('fifa_world_cup_2022_tweets_dataset.csv', 'filtered_dataset.csv')
+preprocess_tweets('fifa_world_cup_2022_tweets_no_sentiment.csv', 'filtered_dataset.csv')
