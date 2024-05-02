@@ -13,7 +13,7 @@ The file ***remove_sentiment.py*** is the Python script I used to remove the "Se
 The file ***dataset_filtering.py*** is the Python script I used to clean the dataset and remove all unnecessary informations like the URLS. The generated csv file is ***filtered_dataset.csv***
 <br/>
 <br/>
-The file ***Tweet_Sentiment_Analysis*** is the python script for running the "transformer" on the dataset ***filtered_dataset.csv*** to analyze the sentiments in the comments and label each comments as Negative, Neutral, or Positive. However, the generated results does not say "Negative", "Neutral", and "Positive" directly, instead it is labeled as "Label_0", "Label_1", and "Label_2".
+The file ***Tweet_Sentiment_Analysis*** is the python script for running the "transformer" on the dataset ***filtered_dataset.csv*** to analyze the sentiments in the comments and label each comments as Negative, Neutral, or Positive. However, the generated results does not say "Negative", "Neutral", and "Positive" directly, instead it is labeled as "Label_0", "Label_1", and "Label_2". The generated file is ***filtered_dataset_with_sentiment.csv***.
 <br/>
 <br/>
 The file ***convert_label.py*** does the job of converting from "Label 0/1/2" to "Negative/Neutral/Positive".
